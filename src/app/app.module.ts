@@ -9,6 +9,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import {MatIconModule} from "@angular/material/icon";
 import {MatMenuModule} from "@angular/material/menu";
 import {ProductComponent} from "./product/product.component";
+import {ProductService} from "./services/product.service";
 
 
 
@@ -26,7 +27,7 @@ import {ProductComponent} from "./product/product.component";
     MatIconModule,
     MatMenuModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

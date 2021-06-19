@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import {Component, } from '@angular/core';
+
 
 export interface Product {
   title: string;
-  describe: string;
+  description: string;
   price: number;
   available: boolean;
   image: string;
