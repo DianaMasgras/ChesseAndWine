@@ -1,22 +1,22 @@
-
 <mat-grid-list cols="4" rowHeight="100px">
   <mat-grid-tile
     colspan="4"
-    rowHeight="1px"
-    [style.background]="'red'">
-    <button mat-button >Home</button>
-    <button mat-button >About</button>
-    <button mat-button >Menu</button>
-    <button mat-button >Contact</button>
-
+    rowHeight="1px">
+    <div id="button">
+      <button mat-button>Home</button>
+      <button mat-button>About</button>
+      <button mat-button>Menu</button>
+      <button mat-button>Contact</button>
+    </div>
+    <div id="icon">
       <mat-icon svgIcon="bag" aria-hidden="false" aria-label="Example bag SVG icon"></mat-icon>
-
+    </div>
   </mat-grid-tile>
-  <mat-grid-tile  id="grid"
-    colspan="4"
-    rowspan="10">
+  <mat-grid-tile id="grid"
+                 colspan="4"
+                 rowspan="10">
     <h1 id="title">Cheese&Wine</h1>
-    </mat-grid-tile>
+  </mat-grid-tile>
   <mat-grid-tile
     colspan="4"
     rowspan="3"
@@ -24,9 +24,9 @@
     Dan
   </mat-grid-tile>
   <mat-grid-tile
+    id="antet"
     colspan="4"
-    rowspan="2"
-    [style.background]="'blue'">
+    rowspan="2">
     Alex
   </mat-grid-tile>
 </mat-grid-list>

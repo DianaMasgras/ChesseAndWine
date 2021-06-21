@@ -10,6 +10,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatMenuModule} from "@angular/material/menu";
 import {ProductComponent} from "./product/product.component";
 import {ProductService} from "./services/product.service";
+import {MenuPageComponent} from "./menu-page/menu-page.component";
 
 
 
@@ -17,6 +18,7 @@ import {ProductService} from "./services/product.service";
   declarations: [
     AppComponent,
     HomePageComponent,
+    MenuPageComponent,
     ProductComponent
   ],
   imports: [

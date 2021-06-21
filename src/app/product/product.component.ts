@@ -1,5 +1,4 @@
-import {Component, } from '@angular/core';
-
+import {Component, Input,} from '@angular/core';
 
 export interface Product {
   title: string;
@@ -8,12 +7,14 @@ export interface Product {
   available: boolean;
   image: string;
 }
+
 @Component({
-  selector:'product',
+  selector: 'product',
   templateUrl: './product.component.html',
 })
 
 export class ProductComponent {
-
+  @Input()
+  product: Product;
 }
 

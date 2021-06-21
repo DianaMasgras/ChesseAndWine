@@ -1,9 +1,24 @@
 #grid {
-  background-image:url('src/assets/image/home.jpg');
+  background-image: url('src/assets/image/home.jpg');
   background-position: center;
   background-size: cover;
   position: absolute;
 }
-.h1{
+
+#title {
   text-align: left;
+}
+
+#antet {
+  background-color: beige;
+}
+#button{
+  position: relative;
+  left:-40%;
+  top: -20px;
+}
+#icon{
+  position: relative;
+  left:40%;
+  top: -20px;
 }
